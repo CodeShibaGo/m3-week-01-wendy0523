@@ -1,2 +1,2 @@
 def distinct(seq):
-    pass
+    pass 
