@@ -1,2 +1,7 @@
 def find_capitals(word):
-    pass
+    result = ""
+    
+    for char in word:
+        if char.isupper():
+            result += char
+    return result
