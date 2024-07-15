@@ -1,2 +1,3 @@
 def abbrev_name(name):
-  pass
+  names = name.split()
+  return f"{names[0][0]}.{names[1][0]}".upper()

@@ -1,2 +1,2 @@
 def disemvowel(s):
-    pass
+    return "".join(x for x in s if x not in 'aeiouAEIOU')
